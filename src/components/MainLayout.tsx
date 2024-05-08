@@ -9,10 +9,11 @@ const MainBox = styled('main')({
 
 interface Props {
   children: React.ReactNode
+  className?: string
 }
 
-const MainLayout: FC<Props> = ({ children }) => {
-  return <MainBox>{children}</MainBox>
+const MainLayout: FC<Props> = ({ children, className }) => {
+  return <MainBox className={className}>{children}</MainBox>
 }
 
 export default MainLayout
