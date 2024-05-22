@@ -81,7 +81,8 @@ const Sidebar = () => {
   return (
     <Box
       className={clsx(
-        'flex flex-col justify-between',
+        'hidden md:flex',
+        'flex-col justify-between',
         'min-h-screen',
         'border-x-[1px] border-[#E3E8EF]'
       )}

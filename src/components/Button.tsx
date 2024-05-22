@@ -53,7 +53,7 @@ const Button: React.FC<ButtonProps> = ({
       )}
     >
       {startIcon && <span className={clsx(iconClassName)}>{startIcon}</span>}
-      {children}
+      <span>{children}</span>
       {endIcon && <span className={clsx(iconClassName)}>{endIcon}</span>}
     </button>
   )

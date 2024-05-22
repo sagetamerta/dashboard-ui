@@ -46,10 +46,12 @@ const dateList = [
 const Header = () => {
   return (
     <Box>
-      <Box className={clsx('flex flex-row justify-between')}>
+      <Box
+        className={clsx('flex flex-col justify-between gap-2', 'md:flex-row')}
+      >
         <Box>
           <Heading>Dashboard Finansialmu</Heading>
-          <Paragraph>Welcome back, Aris!</Paragraph>
+          <Paragraph>Welcome back, Bro!</Paragraph>
         </Box>
         <Box className={clsx('flex flex-row gap-3 items-start')}>
           <Button variant="outlined" startIcon={<IconCurrencyDollar />}>
@@ -58,7 +60,13 @@ const Header = () => {
           <Button variant="contained">Kirim Uang</Button>
         </Box>
       </Box>
-      <Box className={clsx('mt-6', 'flex flex-row justify-between')}>
+      <Box
+        className={clsx(
+          'mt-6',
+          'flex flex-col justify-between gap-2',
+          'md:flex-row'
+        )}
+      >
         <DateFilter data={dateList} />
         <Box className={clsx('flex flex-row gap-3')}>
           <Button variant="outlined" startIcon={<IconCalendar />}>

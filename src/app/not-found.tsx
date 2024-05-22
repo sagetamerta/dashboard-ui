@@ -7,8 +7,8 @@ import React from 'react'
 
 const NotFoundPage = () => {
   return (
-    <MainLayout className={clsx('min-h-screen')}>
-      <div className="flex flex-col items-center justify-center text-center h-screen">
+    <MainLayout>
+      <div className="flex flex-col items-center justify-center text-center min-h-screen h-screen">
         <h1 className="text-9xl font-bold text-red-500">404</h1>
         <p className="text-3xl mt-4 text-gray-700">Page Not Found</p>
         <p className="mt-2 text-gray-500">
