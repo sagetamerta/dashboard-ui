@@ -15,7 +15,7 @@ const Heading = styled('h1')({
   color: '#121926',
   fontSize: '30px',
   fontWeight: 500,
-  letterSpacing: '-0.5px',
+  letterSpacing: '0.25px',
   lineHeight: 1.2
 })
 
@@ -57,7 +57,7 @@ const Header = () => {
           <Button variant="outlined" startIcon={<IconCurrencyDollar />}>
             Deposit
           </Button>
-          <Button variant="contained">Kirim Uang</Button>
+          <Button variant="contained">Kirim uang</Button>
         </Box>
       </Box>
       <Box

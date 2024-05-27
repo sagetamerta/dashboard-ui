@@ -28,7 +28,8 @@ const IconButton: React.FC<ButtonProps> = ({
       disabled={disabled}
       onClick={onClick}
       className={clsx(
-        'px-4 py-2 rounded-full',
+        'p-2 rounded-full hover:bg-slate-50 active:bg-slate-100',
+        'transition-colors duration-300',
         disabled && [
           'bg-opacity-50 border-opacity-20 text-opacity-50 cursor-not-allowed'
         ],

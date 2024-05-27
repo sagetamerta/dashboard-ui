@@ -35,7 +35,7 @@ const Button: React.FC<ButtonProps> = ({
       onClick={onClick}
       className={clsx(
         fullWidth && 'w-full',
-        'px-4 py-2 rounded-md',
+        variant !== 'text-only' ? 'px-4 py-2 rounded-md' : '',
         'flex items-center gap-2',
         'text-base font-medium',
         variant === 'contained'

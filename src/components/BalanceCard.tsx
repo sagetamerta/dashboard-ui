@@ -58,7 +58,7 @@ const BalanceCard = ({
       className={clsx(
         'p-4 border-2 border-[#E3E8EF] rounded-md',
         'grid grid-cols-[minmax(120px,1fr)] gap-6',
-        'lg:grid-cols-[120px_1fr]',
+        'md:grid-cols-[120px_1fr]',
         'xl:grid-cols-[160px_1fr]'
       )}
     >
@@ -80,7 +80,7 @@ const BalanceCard = ({
           <div
             className={clsx(
               'flex flex-col items-start gap-2',
-              'xl:flex-row xl:justify-between'
+              'xl:flex-row xl:justify-between xl:items-center'
             )}
           >
             <p
@@ -103,9 +103,9 @@ const BalanceCard = ({
               )}
             >
               {isUpPercent ? (
-                <IconArrowUp color="#2ECC71" size={16} />
+                <IconArrowUp color="#2ECC71" size={12} />
               ) : (
-                <IconArrowDown color="#FF4757" size={16} />
+                <IconArrowDown color="#FF4757" size={12} />
               )}
               <p>
                 <span>{percentage}</span>
