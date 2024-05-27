@@ -1,3 +1,17 @@
+## About This Dashboard UI
+
+This repository contains a Next.js project for a Dashboard UI focused on account finance and money management. The dashboard provides a comprehensive view of your financial status, including income, expenses, savings, and investments.
+
+### Features
+
+- **Account Overview**: Get a quick snapshot of your financial status, including total balance, income, and expenses.
+- **Transaction History**: Keep track of all your transactions in one place. You can filter and sort them by date, category, or amount.
+- **Budget Planning**: Set monthly or yearly budgets for different categories and track your progress.
+- **Investment Tracking**: Monitor your investments and their performance over time.
+- **Financial Reports**: Generate detailed financial reports to understand your spending habits and identify areas for improvement.
+
+Please note that this project is still under development, and more features will be added in the future. Contributions are welcome!
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
